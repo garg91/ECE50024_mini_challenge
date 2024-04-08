@@ -36,4 +36,6 @@ File Descriptions:
 16. predictions_with_categories.csv:
     output file from test.py.
 
-The submission zip file will not contain the image folder as they require too much space and will make the file size too large for submission. 
+The facenet_epoch_10.pth file was too large to upload on the github as the file is 105MB. Therefore, I have niot included that file here. Moreover the image folder were too large to upload as well, hence they are also not included here. 
+
+For these reasons please run the training file (train.py) first with your image folder while commenting out the part that requires the saved model checkpoint. Then once you have the saved model.pth file you can run the test file (test.py) as it requires the saved model weights to run predictions. 
